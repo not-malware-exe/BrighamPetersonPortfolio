@@ -3,20 +3,21 @@
 
     --bgcolor: #1a2b32;
 
-    --content_bgcolor: #64a7c4;
+    --content_bgcolor: #92b3c1;
     --content_margin: 80px;
     --content_padding: 0px;
 
-    --section_bgcolor: #355866;
+    --section_bgcolor: #516168;
     --section_margin: 40px;
     --section_padding: 10px;
 
     
-    --project_card_bgcolor: #50849b;
+    --project_card_bgcolor: #758e98;
+    --project_card_highlight_bgcolor: #508295;
     --project_card_margin: 0px;
     --project_card_padding: 10px;
 
-    --link_button_bgcolor: #29424e;
+    --link_button_bgcolor: #34444b;
     --link_button_highlight_bgcolor: #3e6273;
 
     --header_color: #ffffff;
@@ -104,6 +105,8 @@ a:hover{
     transform: scale(1.0);
     border-color: #ffffffff;
     /* box-shadow: 0px 0px 50px #ffffff; */
+
+    background-color: var(--project_card_highlight_bgcolor);
 }
 
 .link_button{
