@@ -62,6 +62,8 @@ nav{
     margin: auto;
     max-width: 50%;
     display:flex;
+
+    /* justify-content: stretch; */
     
     /* grid-template-columns: 1fr 1fr; */
 }
@@ -160,4 +162,20 @@ a:hover{
     text-align: center;
     align-self: center;
     align-content: center;
+}
+
+.media_image{
+    width: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-radius: var(--border_radius);
+    margin: auto;
+}
+
+.media_image_gallary{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
 }
